@@ -108,6 +108,7 @@ aside {
 section {
     margin-left: 280px;
     padding-bottom: 50px;
+    min-height: 600px;
 }
 
 /* end: */
@@ -241,6 +242,35 @@ figure div {
 }
 
 /* end:  Блок «Our team»  */
+
+
+
+#contact{
+    margin-top: 20px;
+}
+
+#contact #contact_name{
+     margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+#contact #contact_email{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#contact #contact_subject{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#contact #contact_email_copy{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
 /* end: section */
 
 /* footer */
