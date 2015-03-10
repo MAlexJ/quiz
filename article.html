@@ -34,57 +34,92 @@
     <nav>
         <ul class="top-menu">
             <li><a href="/home/">HOME</a></li>
-            <li><a href="article.html">ARTICLE</a></li>
+            <li class="active">ARTICLE</li>
             <li><a href="questions.html">QUESTIONS</a></li>
             <li><a href="/tests/">TESTS</a></li>
             <li><a href="/qualifications/">QUALIFICATIONS</a></li>
             <li><a href="projects.html">PROJECTS</a></li>
             <li><a href="/profile/">PROFILE</a></li>
-            <li class="active">CONTACT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
         </ul>
     </nav>
 
     <!-- Заголовок страницы -->
     <div id="heading">
-        <h1>CONTACT</h1>
+        <h1>ARTICLE</h1>
     </div>
 
     <!-- Подменю -->
     <aside>
+        <nav>
+            <ul class="aside-menu">
+                <li class="active">LOREM IPSUM</li>
+                <li><a href="/donec/">DONEC TINCIDUNT LAOREET</a></li>
+                <li><a href="/vestibulum/">VESTIBULUM ELIT</a></li>
+                <li><a href="/etiam/">ETIAM PHARETRA</a></li>
+                <li><a href="/phasellus/">PHASELLUS PLACERAT</a></li>
+                <li><a href="/cras/">CRAS ET NISI VITAE ODIO</a></li>
+            </ul>
+        </nav>
 
+        <!-- контент сайдбара -->
+        <h2>OUR OFFICES</h2>
+
+        <p><img src="images/sample.png" width="230" height="180" alt="Our offices"></p>
     </aside>
 
 
     <!-- Контент -->
     <section>
+        <blockquote>
+            <p>
+                “QUISQUE IN ENIM VELIT, AT DIGNISSIM EST. NULLA UL CORPER, DOLOR AC PELLENTESQUE PLACERAT, JUSTO TELLUS
+                GRAVIDA ERAT, VEL PORTTITOR LIBERO ERAT.”
+            </p>
+            <cite>John Doe, Lorem Ipsum</cite>
+        </blockquote>
 
-        <h2>CONTACT</h2>
+        <p>Lorem ipsum dolor sit amet…</p>
 
-        <div id="contact">
-            <label class="" for="contact_name"> Введите ваше имя: </label>
-            <br>
-            <input name="name" id="contact_name" size="30" value="" type="text">
-            <br>
-            <label id="contact_emailmsg" for="contact_email"> E-mail адрес: </label>
-            <br>
-            <input id="contact_email" name="email" size="30" value="" maxlength="60" type="text">
-            <br>
-            <label for="contact_subject"> Тема сообщения: </label>
-            <br>
-            <input name="subject" id="contact_subject" size="30" value="" type="text">
-            <br><br>
-            <label id="contact_textmsg" for="contact_text"> Введите текст вашего сообщения: </label>
-            <br>
-            <textarea cols="50" rows="10" name="text" id="contact_text" class="inputbox required"></textarea>
-            <br>
-            <input class="" name="email_copy" id="contact_email_copy" value="1" type="checkbox">
-            <label class="" for="contact_email_copy">
-                Отправить копию этого сообщения на ваш адрес </label>
-            <br>
-            <br>
-            <button class="button validate" type="submit">Отправить</button>
+        <p>Donec vel nisl nibh…</p>
+
+        <p>Donec vel nisl nibh…</p>
+
+
+        <!-- Изображения -->
+        <figure>
+            <img src="images/sample.png" width="320" height="175" alt="">
+        </figure>
+        <figure>
+            <img src="images/sample.png" width="320" height="175" alt="">
+        </figure>
+
+
+        <!--  Блок «Our team» -->
+        <h2>OUR TEAM</h2>
+
+        <div class="team-row">
+            <figure>
+                <img src="images/sample.png" width="96" height="96" alt="">
+                <figcaption>John Doe<span>ceo</span></figcaption>
+            </figure>
+            <figure>
+                <img src="images/sample.png" width="96" height="96" alt="">
+                <figcaption>Saundra Pittsley<span>team leader</span></figcaption>
+            </figure>
+
         </div>
+        <div class="team-row">
+            <figure>
+                <img src="images/sample.png" width="96" height="96" alt="">
+                <figcaption>Ericka Nobriga<span>art director</span></figcaption>
+            </figure>
+            <figure>
+                <img src="images/sample.png" width="96" height="96" alt="">
+                <figcaption>Cody Rousselle<span>senior ui designer</span></figcaption>
+            </figure>
 
+        </div>
 
     </section>
 

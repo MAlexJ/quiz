@@ -34,31 +34,31 @@
     <nav>
         <ul class="top-menu">
             <li><a href="/home/">HOME</a></li>
-            <li class="active">ABOUT US</li>
-            <li><a href="/services/">SERVICES</a></li>
-            <li><a href="/partners/">PARTNERS</a></li>
-            <li><a href="/customers/">CUSTOMERS</a></li>
-            <li><a href="/projects/">PROJECTS</a></li>
-            <li><a href="/careers/">CAREERS</a></li>
+            <li><a href="article.html">ARTICLE</a></li>
+            <li class="active">QUESTIONS</li>
+            <li><a href="/tests/">TESTS</a></li>
+            <li><a href="/qualifications/">QUALIFICATIONS</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <li><a href="/profile/">PROFILE</a></li>
             <li><a href="contact.html">CONTACT</a></li>
         </ul>
     </nav>
 
     <!-- Заголовок страницы -->
     <div id="heading">
-        <h1>ABOUT US</h1>
+        <h1>QUESTIONS</h1>
     </div>
 
     <!-- Подменю -->
     <aside>
         <nav>
             <ul class="aside-menu">
-                <li class="active">LOREM IPSUM</li>
-                <li><a href="/donec/">DONEC TINCIDUNT LAOREET</a></li>
-                <li><a href="/vestibulum/">VESTIBULUM ELIT</a></li>
-                <li><a href="/etiam/">ETIAM PHARETRA</a></li>
-                <li><a href="/phasellus/">PHASELLUS PLACERAT</a></li>
-                <li><a href="/cras/">CRAS ET NISI VITAE ODIO</a></li>
+                <li class="active">Java</li>
+                <li><a href="/donec/">SQL</a></li>
+                <li><a href="/vestibulum/">HTML</a></li>
+                <li><a href="/etiam/">CSS</a></li>
+                <li><a href="/phasellus/">JavaScript </a></li>
+                <li><a href="/cras/">Programming</a></li>
             </ul>
         </nav>
 
@@ -71,55 +71,26 @@
 
     <!-- Контент -->
     <section>
-        <blockquote>
+        <p>Вопрос</p>
+        <div id="questions">
             <p>
-                “QUISQUE IN ENIM VELIT, AT DIGNISSIM EST. NULLA UL CORPER, DOLOR AC PELLENTESQUE PLACERAT, JUSTO TELLUS
-                GRAVIDA ERAT, VEL PORTTITOR LIBERO ERAT.”
+                Что такое контейнер сервлетов? Что такое сервлет? Методы сервлета. Жизненный цикл сервлета.
             </p>
-            <cite>John Doe, Lorem Ipsum</cite>
-        </blockquote>
-
-        <p>Lorem ipsum dolor sit amet…</p>
-
-        <p>Donec vel nisl nibh…</p>
-
-        <p>Donec vel nisl nibh…</p>
-
-
-        <!-- Изображения -->
-        <figure>
-            <img src="images/sample.png" width="320" height="175" alt="">
-        </figure>
-        <figure>
-            <img src="images/sample.png" width="320" height="175" alt="">
-        </figure>
-
-
-        <!--  Блок «Our team» -->
-        <h2>OUR TEAM</h2>
-
-        <div class="team-row">
-            <figure>
-                <img src="images/sample.png" width="96" height="96" alt="">
-                <figcaption>John Doe<span>ceo</span></figcaption>
-            </figure>
-            <figure>
-                <img src="images/sample.png" width="96" height="96" alt="">
-                <figcaption>Saundra Pittsley<span>team leader</span></figcaption>
-            </figure>
-
         </div>
-        <div class="team-row">
-            <figure>
-                <img src="images/sample.png" width="96" height="96" alt="">
-                <figcaption>Ericka Nobriga<span>art director</span></figcaption>
-            </figure>
-            <figure>
-                <img src="images/sample.png" width="96" height="96" alt="">
-                <figcaption>Cody Rousselle<span>senior ui designer</span></figcaption>
-            </figure>
 
+        <div class="answer">
+            <p>
+            <span class="title">Ответ:</span>
+            </p>
+            <div id="answer"><p>Контейнер сервлетов -  программа, управляющая жизненным циклом сервлетов.</p>
+                <p>Сервлет – класс, отвечающий за обработку запросов клиента и отправку ответов. </p>
+
+                <p>Основные методы сервлета: init() – запускается сразу после  загрузки сервлета в память; service() – вызывается для обработки каждого запроса; destroy() – выполняется перед выгрузкой сервлета из памяти.</p>
+
+                <p>Жизненный цикл сервлета: им управляет контейнер сервлетов, при первом обращении к сервлету происходит его загрузка в память и вызывается  метод init(). На протяжении работы приложения происходят вызовы методы service() для обработки запросов клиента. По завершению работы приложения вызывается метод destroy() и сервлет выгружается из памяти. </p>
+            </div>
         </div>
+
 
     </section>
 

@@ -153,6 +153,29 @@ aside > p {
 /* end: контент сайдбара */
 
 /* section */
+/* questions */
+#questions{
+    margin: 0;
+    background: #29c5e6;
+    padding: 10px 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 18px;
+}
+/* end:  questions */
+
+/* questions */
+#answer{
+    margin: 0;
+    background: #17dfbc;
+    padding: 10px 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 18px;
+}
+/* end:  answer */
 
 /* blockquote */
 blockquote {
