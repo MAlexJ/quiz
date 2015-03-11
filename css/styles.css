@@ -132,6 +132,16 @@ section {
     color: #8f8f8f;
 }
 
+/* Partners */
+.partners {
+    width: 78px;
+    height: 111px;
+    background: url("../images/easy_it_logo.png") no-repeat;
+    display: inline-block;
+    margin: 5px 5px 5px 5px;
+}
+
+/* end: Partners */
 /* end: Подменю <aside> */
 
 /* контент сайдбара */
@@ -154,7 +164,7 @@ aside > p {
 
 /* section */
 /* questions */
-#questions{
+#questions {
     margin: 0;
     background: #29c5e6;
     padding: 10px 20px;
@@ -163,10 +173,11 @@ aside > p {
     color: #fff;
     font-size: 18px;
 }
+
 /* end:  questions */
 
 /* questions */
-#answer{
+#answer {
     margin: 0;
     background: #17dfbc;
     padding: 10px 20px;
@@ -175,6 +186,7 @@ aside > p {
     color: #fff;
     font-size: 18px;
 }
+
 /* end:  answer */
 
 /* blockquote */
@@ -266,33 +278,29 @@ figure div {
 
 /* end:  Блок «Our team»  */
 
-
-
-#contact{
+#contact {
     margin-top: 20px;
 }
 
-#contact #contact_name{
-     margin-top: 10px;
-    margin-bottom: 10px;
- }
-
-#contact #contact_email{
+#contact #contact_name {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-#contact #contact_subject{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-#contact #contact_email_copy{
+#contact #contact_email {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
+#contact #contact_subject {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
-
+#contact #contact_email_copy {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 /* end: section */
 
@@ -383,6 +391,7 @@ footer p {
 #sitemap a:hover {
     text-decoration: underline;
 }
+
 /* end: sitemap */
 
 /* social */
@@ -400,7 +409,7 @@ footer p {
     margin-right: 10px;
 }
 
-.social-icon-small  {
+.social-icon-small {
     width: 16px;
     height: 16px;
     background: url(../images/social-small.png) no-repeat;
@@ -439,5 +448,6 @@ footer p {
 .rss {
     background-position: -64px 0;
 }
+
 /* end: social */
 /* end: footer */
