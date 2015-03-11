@@ -53,7 +53,7 @@
     <aside>
         <nav>
             <ul class="aside-menu">
-                <li><a href="questionsjava.html">Java</a></li>
+                <li class="active">Java</li>
                 <li><a href="questionssql.html">SQL</a></li>
                 <li><a href="/html/">HTML</a></li>
                 <li><a href="/css/">CSS</a></li>
@@ -71,38 +71,34 @@
 
     <!-- Контент -->
     <section>
+        <p>Вопрос</p>
 
-        <h3>Данный раздел содержит вопросы собеседований по направлению:</h3>
-
-        <div class="team-row">
-            <figure>
-                <img src="images/sample.png" width="96" height="96" alt="">
-                <figcaption>Java</figcaption>
-            </figure>
-            <figure>
-                <img src="images/sample.png" width="96" height="96" alt="">
-                <figcaption>SQL</figcaption>
-            </figure>
-
-            <figure>
-                <img src="images/sample.png" width="96" height="96" alt="">
-                <figcaption>HTML</figcaption>
-            </figure>
-            <figure>
-                <img src="images/sample.png" width="96" height="96" alt="">
-                <figcaption>CSS</figcaption>
-            </figure>
+        <div id="questions">
+            <p>
+                Что такое контейнер сервлетов? Что такое сервлет? Методы сервлета. Жизненный цикл сервлета.
+            </p>
         </div>
-        <div class="team-row">
-            <figure>
-                <img src="images/sample.png" width="96" height="96" alt="">
-                <figcaption>JavaScript</figcaption>
-            </figure>
-            <figure>
-                <img src="images/sample.png" width="96" height="96" alt="">
-                <figcaption>Programming</figcaption>
-            </figure>
+
+        <div class="answer">
+            <p>
+                <span class="title">Ответ:</span>
+            </p>
+
+            <div id="answer"><p>Контейнер сервлетов - программа, управляющая жизненным циклом сервлетов.</p>
+
+                <p>Сервлет – класс, отвечающий за обработку запросов клиента и отправку ответов. </p>
+
+                <p>Основные методы сервлета: init() – запускается сразу после загрузки сервлета в память; service() –
+                    вызывается для обработки каждого запроса; destroy() – выполняется перед выгрузкой сервлета из
+                    памяти.</p>
+
+                <p>Жизненный цикл сервлета: им управляет контейнер сервлетов, при первом обращении к сервлету происходит
+                    его загрузка в память и вызывается метод init(). На протяжении работы приложения происходят вызовы
+                    методы service() для обработки запросов клиента. По завершению работы приложения вызывается метод
+                    destroy() и сервлет выгружается из памяти. </p>
+            </div>
         </div>
+
 
     </section>
 

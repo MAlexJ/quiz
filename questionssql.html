@@ -54,7 +54,7 @@
         <nav>
             <ul class="aside-menu">
                 <li><a href="questionsjava.html">Java</a></li>
-                <li><a href="questionssql.html">SQL</a></li>
+                <li class="active">SQL</li>
                 <li><a href="/html/">HTML</a></li>
                 <li><a href="/css/">CSS</a></li>
                 <li><a href="/javascript/">JavaScript </a></li>
@@ -71,39 +71,24 @@
 
     <!-- Контент -->
     <section>
+        <p>Вопрос</p>
 
-        <h3>Данный раздел содержит вопросы собеседований по направлению:</h3>
-
-        <div class="team-row">
-            <figure>
-                <img src="images/sample.png" width="96" height="96" alt="">
-                <figcaption>Java</figcaption>
-            </figure>
-            <figure>
-                <img src="images/sample.png" width="96" height="96" alt="">
-                <figcaption>SQL</figcaption>
-            </figure>
-
-            <figure>
-                <img src="images/sample.png" width="96" height="96" alt="">
-                <figcaption>HTML</figcaption>
-            </figure>
-            <figure>
-                <img src="images/sample.png" width="96" height="96" alt="">
-                <figcaption>CSS</figcaption>
-            </figure>
-        </div>
-        <div class="team-row">
-            <figure>
-                <img src="images/sample.png" width="96" height="96" alt="">
-                <figcaption>JavaScript</figcaption>
-            </figure>
-            <figure>
-                <img src="images/sample.png" width="96" height="96" alt="">
-                <figcaption>Programming</figcaption>
-            </figure>
+        <div id="questions">
+            <p>
+                Для каких числовых типов недопустимо использовать операцию сложения (вычитания), а значит и функцию SUM(
+                )?
+            </p>
         </div>
 
+        <div class="answer">
+            <p>
+                <span class="title">Ответ:</span>
+            </p>
+            <div id="answer">
+                <p>В качестве операндов операций сложения и вычитания допустимо любое корректное выражение любого типа
+                    данных числовой категории, кроме типа данных bit.</p>
+            </div>
+        </div>
     </section>
 
 </div>
